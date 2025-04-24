@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet"  href="index.css">
+</head>
+<body>
+ <div id="formContainer">
+    <h2>Signup</h2>
+    <form id="myform">
+        <label for="name" >Full Name</label>
+        <input type="text " id="name" name="name" placeholder="Full Name"  required><br><br>
+        <lable for="email">Email</lable>
+        <input type="email" id="email" name="email" placeholder="Email" required><br><br>
+        <label for="enterpassword">Enter Password</label>
+        <input type="password" id="enterpassword" name="enterpassword"   placeholder="Enter Password"  required><br><br>
+        <label for="confirmpassword">Confirm Password</label>
+        <input type="password" id="confirmpassword" name="confirmpassword"   placeholder="Confirm Password" required><br><br>
+        <label for="date" >Enter Date</label>
+        <input type="date" id="date" name="date"   placeholder="mm//dd/yyyy" required><br><br>
+        <div>
+            <label for="Student">Student</label>
+            <input type="radio" id="Student" name="Profession" required>
+            <label for="Teacher">Teacher</label>
+            <input type="radio" id="Teacher" name="Profession"> <br><br>
+            <input type="checkbox" id="check" name="agree" required>
+            <label for="agree"> I agree to all the Terms and conditions</label>
+            <br><br>
+            <button id="btn" type="submit">Submit</button>
+            
+        </div>
+    </form>
+   </div>
+</body>
+</html>
